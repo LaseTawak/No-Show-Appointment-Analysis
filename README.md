@@ -1,5 +1,12 @@
 # No-Show Analysis of Medical Appointment
 
+## Objective
+We would be looking to answer some questions and try to find out if these variables can help predict patients showing up for their appointment or not and the other variables provided ;
+* How does gender and Age influence on No-shows ?
+* Does the day of the week have an effect on No-show ?
+* Does neighbourhood influence patients showing up or not ?
+* Is there a relationship between patients on scholarship and showing up for appointments ?
+
 ## Dataset
 The dataset used for this project contains information on a 100thousand patients in Brazil who were booked for medical appointments. It also contains information on whether they showed up or didn't show up for their registered appointment. The dataset was downloaded from kaggle [here](https://www.kaggle.com/datasets/joniarroba/noshowappointments). Each observation is made up 14 attributes collected to help with our analysis.
 
@@ -19,13 +26,6 @@ The information collected on each potential patient are as follows;
 * `Handicapped`: Signifies if the patient lives with a disability.
 * `SMS_received`: Indicates if the patient was reminded about their appointment via SMS
 * `No-Show`: Indicates if the patient did not show up for the appointment (‘No’ if the patient showed up to their appointment, and ‘Yes’ if they did not show up)
-
-## Objective
-We would be looking to answer some questions and try to find out if these variables can help predict patients showing up for their appointment or not and the other variables provided ;
-* How does gender and Age influence on No-shows ?
-* Does the day of the week have an effect on No-show ?
-* Does neighbourhood influence patients showing up or not ?
-* Is there a relationship between patients on scholarship and showing up for appointments ?
 
 ## Wrangling and Transformation
 A number of transformation techniques were carried out to make analysis suitable and accurate. Some of the actions carried out to make the sata suitable for analysis are as follows:
