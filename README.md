@@ -28,13 +28,13 @@ The information collected on each potential patient are as follows;
 * `No-Show`: Indicates if the patient did not show up for the appointment (‘No’ if the patient showed up to their appointment, and ‘Yes’ if they did not show up)
 
 ## Wrangling and Transformation
-A number of transformation techniques were carried out to make analysis suitable and accurate. Some of the actions carried out to make the sata suitable for analysis are as follows:
+A number of transformation techniques were carried out to make analysis suitable and accurate. Some of the transformation techniques applied to the dataset include:
 * Renaming of data attributes using the snake_case convention.
 * Modification of column types for appropriateness.
 * Removal of irrelevant observations for more focused analysis.
 
 ## Summary of Analysis
-* Among our initial questions, the waiting time emerged as a significant factor affecting appointment attendance. Longer waiting times correlate with increased no-show rates, this could possibly be as a result of patients feeling much better after a long period of wait or possibly patients forgetting about their appointments completely.
+* Among our initial questions, waiting time emerged as a significant factor affecting appointment attendance. Longer waiting times correlate with increased no-show rates, this could possibly be as a result of patients feeling much better after a long period of wait or possibly patients forgetting about their appointments completely.
 * The day of the week shows a weak correlation as patients tend to prefer showing up during the weak compared to the end and start of the week, with Wednesday the most preffered day of the week.
 * The analysis of neighborhood impact on no-shows does not yield strong actionable insights. While we can identify areas with higher no-show rates, the reasons behind these patterns remain unclear. Incorporating data on distance from healthcare facilities and neighborhood income levels could offer more comprehensive insights.
 * Age analysis reveals that less than twenty percent of infants and seniors miss their appointments, the lowest no-show rates among all age groups. This trend could be attributed to the heightened health risks for these age groups, prompting more vigilant care from parents for their children and adult children for their old parents.
